@@ -29,7 +29,7 @@
  http://gitlab.local:10080
  ```
 
-## Gitlab accout
+## Gitlab account
 
 * username: `root`
 * password: `5iveL!fe`

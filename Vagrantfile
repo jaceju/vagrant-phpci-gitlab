@@ -15,8 +15,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     config.vm.provision :shell, :path => "./setup.sh"
     config.vm.hostname = "phpci.local"
     config.vm.network "forwarded_port", guest: 80, host: 80
-    config.vm.network "forwarded_port", guest: 8080, host: 8080
     config.vm.network "forwarded_port", guest: 443, host: 443
+    config.vm.network "forwarded_port", guest: 3306, host: 33060
     config.vm.network "private_network", ip: "192.168.10.20"
 
 end

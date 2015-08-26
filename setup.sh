@@ -2,7 +2,6 @@
 ## @see http://www.chrisle.me/2013/08/running-headless-selenium-with-chrome/
 
 SHELL=/bin/bash
-SCRIPT_PATH=/vagrant/assets/scripts
 
 set -e
 
